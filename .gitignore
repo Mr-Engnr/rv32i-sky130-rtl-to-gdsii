@@ -1,0 +1,4 @@
+runs/
+*.gds
+*.vhd
+venv/

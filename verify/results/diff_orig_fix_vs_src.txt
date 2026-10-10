@@ -1,0 +1,176 @@
+--- /tmp/claude-1000/-home-user-openlane-work/20c1430b-2aca-41a6-b35a-9d85106a78c6/scratchpad/sim/orig.out	2026-10-10 03:10:21.459297448 +0500
++++ /tmp/claude-1000/-home-user-openlane-work/20c1430b-2aca-41a6-b35a-9d85106a78c6/scratchpad/sim/src.out	2026-10-10 03:10:12.687300022 +0500
+@@ -22,60 +22,60 @@
+ PC t=215 pc=72 reset=0
+ PC t=225 pc=76 reset=0
+ PC t=235 pc=80 reset=0
+-PC t=245 pc=84 reset=0
+-PC t=255 pc=94 reset=0
+-PC t=265 pc=98 reset=0
+-PC t=275 pc=102 reset=0
+-PC t=285 pc=106 reset=0
+-PC t=295 pc=110 reset=0
+-PC t=305 pc=114 reset=0
+-PC t=315 pc=118 reset=0
+-PC t=325 pc=122 reset=0
+-PC t=335 pc=126 reset=0
+-PC t=345 pc=130 reset=0
+-PC t=355 pc=134 reset=0
+-PC t=365 pc=138 reset=0
+-PC t=375 pc=142 reset=0
+-PC t=385 pc=146 reset=0
+-PC t=395 pc=150 reset=0
+-PC t=405 pc=154 reset=0
+-PC t=415 pc=158 reset=0
+-PC t=425 pc=162 reset=0
+-PC t=435 pc=166 reset=0
+-PC t=445 pc=170 reset=0
+-PC t=455 pc=174 reset=0
+-PC t=465 pc=178 reset=0
+-PC t=475 pc=182 reset=0
+-PC t=485 pc=186 reset=0
+-PC t=495 pc=190 reset=0
+-PC t=505 pc=194 reset=0
+-PC t=515 pc=198 reset=0
+-PC t=525 pc=202 reset=0
+-PC t=535 pc=206 reset=0
+-PC t=545 pc=210 reset=0
+-PC t=555 pc=214 reset=0
+-PC t=565 pc=218 reset=0
+-PC t=575 pc=222 reset=0
+-PC t=585 pc=226 reset=0
+-PC t=595 pc=230 reset=0
+-PC t=605 pc=234 reset=0
+-PC t=615 pc=238 reset=0
+-PC t=625 pc=242 reset=0
+-PC t=635 pc=246 reset=0
+-PC t=645 pc=250 reset=0
+-PC t=655 pc=254 reset=0
+-PC t=665 pc=258 reset=0
+-PC t=675 pc=262 reset=0
+-PC t=685 pc=266 reset=0
+-PC t=695 pc=270 reset=0
+-PC t=705 pc=274 reset=0
+-PC t=715 pc=278 reset=0
+-PC t=725 pc=282 reset=0
+-PC t=735 pc=286 reset=0
+-PC t=745 pc=290 reset=0
+-PC t=755 pc=294 reset=0
+-PC t=765 pc=298 reset=0
+-PC t=775 pc=302 reset=0
++PC t=245 pc=56 reset=0
++PC t=255 pc=60 reset=0
++PC t=265 pc=64 reset=0
++PC t=275 pc=68 reset=0
++PC t=285 pc=72 reset=0
++PC t=295 pc=76 reset=0
++PC t=305 pc=80 reset=0
++PC t=315 pc=56 reset=0
++PC t=325 pc=60 reset=0
++PC t=335 pc=64 reset=0
++PC t=345 pc=68 reset=0
++PC t=355 pc=72 reset=0
++PC t=365 pc=76 reset=0
++PC t=375 pc=80 reset=0
++PC t=385 pc=56 reset=0
++PC t=395 pc=60 reset=0
++PC t=405 pc=64 reset=0
++PC t=415 pc=68 reset=0
++PC t=425 pc=72 reset=0
++PC t=435 pc=76 reset=0
++PC t=445 pc=80 reset=0
++PC t=455 pc=56 reset=0
++PC t=465 pc=60 reset=0
++PC t=475 pc=64 reset=0
++PC t=485 pc=68 reset=0
++PC t=495 pc=72 reset=0
++PC t=505 pc=76 reset=0
++PC t=515 pc=80 reset=0
++PC t=525 pc=56 reset=0
++PC t=535 pc=84 reset=0
++PC t=545 pc=88 reset=0
++PC t=555 pc=92 reset=0
++PC t=565 pc=96 reset=0
++PC t=575 pc=100 reset=0
++PC t=585 pc=104 reset=0
++PC t=595 pc=108 reset=0
++PC t=605 pc=112 reset=0
++PC t=615 pc=116 reset=0
++PC t=625 pc=120 reset=0
++PC t=635 pc=124 reset=0
++PC t=645 pc=128 reset=0
++PC t=655 pc=132 reset=0
++PC t=665 pc=136 reset=0
++PC t=675 pc=140 reset=0
++PC t=685 pc=144 reset=0
++PC t=695 pc=148 reset=0
++PC t=705 pc=152 reset=0
++PC t=715 pc=156 reset=0
++PC t=725 pc=160 reset=0
++PC t=735 pc=164 reset=0
++PC t=745 pc=168 reset=0
++PC t=755 pc=172 reset=0
++PC t=765 pc=176 reset=0
++PC t=775 pc=180 reset=0
+ ---FINAL---
+ REG[0]=00000000
+ REG[1]=00000000
+@@ -83,10 +83,10 @@
+ REG[3]=00000000
+ REG[4]=00000000
+ REG[5]=00000000
+-REG[6]=00000000
+-REG[7]=00000000
++REG[6]=0000001f
++REG[7]=0000007b
+ REG[8]=00000000
+-REG[9]=00000018
++REG[9]=00000000
+ REG[10]=00000000
+ REG[11]=00000000
+ REG[12]=00000000
+@@ -94,7 +94,7 @@
+ REG[14]=00000000
+ REG[15]=00000000
+ REG[16]=00000000
+-REG[17]=00000000
++REG[17]=0000000a
+ REG[18]=00000000
+ REG[19]=00000000
+ REG[20]=00000000
+@@ -105,27 +105,27 @@
+ REG[25]=00000000
+ REG[26]=00000000
+ REG[27]=00000000
+-REG[28]=0000001c
++REG[28]=00000005
+ REG[29]=00000005
+-REG[30]=00000000
+-REG[31]=00000000
+-MEM[0]=00000000
++REG[30]=00000010
++REG[31]=00000010
++MEM[0]=00000019
+ MEM[1]=00000000
+ MEM[2]=00000000
+ MEM[3]=00000000
+-MEM[4]=00000000
++MEM[4]=0000000c
+ MEM[5]=00000000
+ MEM[6]=00000000
+ MEM[7]=00000000
+-MEM[8]=00000000
++MEM[8]=00000030
+ MEM[9]=00000000
+ MEM[10]=00000000
+ MEM[11]=00000000
+-MEM[12]=00000000
++MEM[12]=00000007
+ MEM[13]=00000000
+ MEM[14]=00000000
+ MEM[15]=00000000
+-MEM[16]=00000000
++MEM[16]=0000001f
+ MEM[17]=00000000
+ MEM[18]=00000000
+ MEM[19]=00000000
